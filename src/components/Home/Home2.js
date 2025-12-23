@@ -1,13 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram, AiFillFacebook,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {AiFillFacebook, AiFillGithub,} from "react-icons/ai";
+import {FaLinkedinIn} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -68,16 +64,6 @@ function Home2() {
                     className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/sunilpoudel/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">

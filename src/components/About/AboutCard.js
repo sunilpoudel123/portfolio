@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import {ImPointRight} from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -12,8 +12,6 @@ function AboutCard() {
             from <span className="purple"> United States</span>
             <br/>
             I am currently pursuing a Master's in Computer Science at MIU.
-            <br/>
-            I have over 6 years of experience in building scalable enterprise solutions.
             <br/>
             <br/>
             Apart from coding, some other activities that I love to do!
